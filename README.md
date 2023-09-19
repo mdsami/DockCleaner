@@ -1,6 +1,6 @@
 # Docker + Cleaner = DockerCleaner
 
-Automatically cleans your unused docker images, volumes,netwoeks, containers.
+Automatically clean up your unused docker images, volumes,networks, containers.
 
 ## Overview
 
