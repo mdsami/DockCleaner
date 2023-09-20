@@ -15,3 +15,5 @@ RUN echo "*/5 * * * * /bin/sh -c '/app/cleanup.sh'" >> /etc/crontabs/root
 
 # Start the cron service when the container runs
 CMD ["crond", "-f"]
+
+ENTRYPOINT [ "/app/main.sh" ]
